@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    padding: 15px;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 300px;
+}
+
+.imagemfundo-martelo {
+    background-image: url('img/capa.jpg');
+    background-size: cover;
+    height: 374px;
+    padding-top: 35px;
+    
+}
+
+.textoimagemfundo {
+    text-align: right;
+    margin-right: 400px;
+    font-weight: bold;
+    
+}
+
+.sobrenos {
+    margin: auto;
+    width: 700px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.sobrenos h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sobrenos p {
+    font-size: 1.0rem;
+    margin-bottom: 15px;
+}
+.sobrenos img {
+    width: 200px;
+    height: 150px;
+    
+}
+
+.p-borderleft {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    border-left: 2px solid black;
+    padding-left: 8px;
+    
+}
+
+.parallax {
+    background-image: url('img/fundo.jpg');
+    height: 130px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parallax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0px 25px;
+}
+
+.areas-de-atuacao {
+    padding: 50px 0;
+    width: 700px;
+    margin: auto;
+    
+}
+
+.areas-de-atuacao h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+}
+
+.areas-de-atuacao p {
+    margin-bottom: 15px;
+}
+
+.areas-de-atuacao ul {
+    margin-left: 38px;
+}
+
+.faleconosco {
+    width: 700px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.faleconosco h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+}
+
+.faleconosco ul {
+    margin-left: 38px;
+}
